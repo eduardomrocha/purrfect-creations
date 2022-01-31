@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  api:
+    container_name: purrfect-creations-api
+    restart: on-failure
+    build: ./purrfect-creations-api/.
+    volumes:
+      - ./purrfect-creations-api/src:/app/src
+    ports:
+      - "4000:4000"
+    command: >
+      sh -c "npm start"
+  webapp:
+    container_name: purrfect-creations-webapp
+    restart: on-failure
+    build: ./purrfect-creations-webapp/.
+    volumes:
+      - ./purrfect-creations-webapp/src:/app/src
+    ports:
+      - "3000:3000"
+    command: >
+      sh -c "npm start"

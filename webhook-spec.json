@@ -1,0 +1,14 @@
+{
+  "specification": {
+    "options": {
+      "filters": {
+        "dataTypes": ["tableData"],
+        "recordChangeScope": "app8wLQrrIMrnn673"
+      },
+      "includes": {
+        "includeCellValuesInFieldIds": "all"
+      }
+    }
+  },
+  "notificationUrl": "https://foo.com/receive-ping"
+}
