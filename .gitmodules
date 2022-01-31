@@ -1,0 +1,6 @@
+[submodule "purrfect-creations-api"]
+	path = purrfect-creations-api
+	url = git@github.com:eduardomrocha/purrfect-creations-api.git
+[submodule "purrfect-creations-webapp"]
+	path = purrfect-creations-webapp
+	url = git@github.com:eduardomrocha/purrfect-creations-webapp.git
